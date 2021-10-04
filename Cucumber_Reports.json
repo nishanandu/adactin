@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify login page using valid credentials",
+        "description": "",
+        "id": "user-making-a-booking-in-adactin-hotel-booking-application;verify-login-page-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user has to launch the application",
+            "match": {
+              "location": "StepDefinition.user_has_to_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters the valid username in the username textbox",
+            "match": {
+              "location": "StepDefinition.user_enters_the_valid_username_in_the_username_textbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters the valid password in the password textbox",
+            "match": {
+              "location": "StepDefinition.user_enters_the_valid_password_in_the_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@first"
+          }
+        ]
+      }
+    ],
+    "name": "User making a booking in Adactin hotel booking application",
+    "description": "",
+    "id": "user-making-a-booking-in-adactin-hotel-booking-application",
+    "keyword": "Feature",
+    "uri": "AdactinApp.feature"
+  }
+]
